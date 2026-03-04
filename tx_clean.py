@@ -19,7 +19,7 @@ lich_su = {}  # cid -> deque(10) of KQ_TAI/KQ_XIU
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN  = "8412067172:AAEjPZJepvJS9AKbTkaBkpb3Xnxw-Adn7xk"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_IDS  = [ 8337495954 ]
 THUONG_DD  = 50_000
 TIEN_BD    = 50_000
